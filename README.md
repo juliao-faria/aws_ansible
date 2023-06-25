@@ -17,8 +17,8 @@ AWS CLOUD
   - install.yml // nano install.yml
 8. Primeramente se hace el ping mediante y después se instala los recursos
   - ansible all -i inventory.ini -m ping
+  - ansible-playbook install.yml
 
     
-  - ansible-playbook install.yml
 Conclusión:
 Todo a funcionado perfectamente sin problemas algún, vale resaltar que todo se hizo en AWS.
